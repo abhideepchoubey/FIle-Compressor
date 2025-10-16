@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huffman Compressor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Huffman Text Compressor</h1>
+        <p>Compress your text using Huffman (Greedy Algorithm) and download binary files</p>
+    </header>
+
+    <section class="input-section">
+        <textarea id="inputText" placeholder="Paste your text here..."></textarea>
+        <button id="compressBtn">Compress & Download .bin</button>
+    </section>
+
+    <section class="output-section">
+        <div class="card">
+            <h2>Huffman Codes</h2>
+            <pre id="codesOutput"></pre>
+        </div>
+        <div class="card">
+            <h2>Compressed Binary</h2>
+            <pre id="binaryOutput"></pre>
+        </div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
